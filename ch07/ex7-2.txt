@@ -1,0 +1,12 @@
+$ curl -i http://localhost:3000/cheshire-cat
+ HTTP/1.1 200 OK
+ Date: Wed, 13 May 2020 05:42:38 GMT
+ Content-Type: application/json; charset=utf-8
+ Set-Cookie: ring-session=0894aa65-843b-433d-a723-3ab92bc24ee5;Path=/;HttpOnly;SameSite=Strict
+ X-XSS-Protection: 1; mode=block
+ X-Frame-Options: SAMEORIGIN
+ X-Content-Type-Options: nosniff
+ Content-Length: 43
+ Server: Jetty(9.2.21.v20170120)
+
+{"name":"Cheshire Cat","status":"grinning"}
